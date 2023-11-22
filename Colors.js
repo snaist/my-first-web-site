@@ -19,7 +19,7 @@ function closePop() {
     document.getElementById("popup_layer").style.display = "none";
 }
 function mainlink() {
-    window.location.href = "main.html#";
+    window.location.href = "index.html#";
 }
 function codinglink() {
     window.location.href = "coding.html";
