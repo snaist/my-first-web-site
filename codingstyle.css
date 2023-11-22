@@ -1,0 +1,67 @@
+a{
+    color: white;
+    /* text-decoration-line: none; */
+}
+body{
+    background-position: center;
+    background-image: url('coding.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 170px;
+    margin-right: 170px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-size: 45px;
+    text-align: left;
+    border-bottom: 2px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.button{
+    position: relative;
+    left: 60%;
+    color: white;
+    background-color: black;
+    border: 1;
+    border-color: white;
+    margin: 0px;
+    padding: 3px;
+}
+
+div {
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px;
+}
+
+table {
+    font-size: 20px;
+    
+    position: relative;
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+}
+
+th, td {
+    color: white;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    height: 25px;
+    background-color: gray;
+}
+td{
+    height: 40px
+}
