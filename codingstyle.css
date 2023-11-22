@@ -1,6 +1,5 @@
 a{
-    color: white;
-    /* text-decoration-line: none; */
+    text-decoration-line: none;
 }
 body{
     background-position: center;
@@ -13,7 +12,9 @@ body{
     background-color: black;
     color: white;
 }
-
+head{
+    text-decoration-line: none;
+}
 h1{
     font-size: 45px;
     text-align: left;
