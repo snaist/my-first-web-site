@@ -1,41 +1,26 @@
 body{
-    margin: 0;
+    background-color: black;
+    color: white;
 }
-a {
-    /*color: black;
-    text-decoration: none;*/
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 10px;
+    padding: 30px;
 }
-h1 {
-    font-size: 45px;
-    text-align: center;
-    border-bottom: 1px solid gray;
-    margin: 0;
-    padding: 20px;
+
+th, td {
+    color: white;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 }
-ol {
-    border-right: 1px solid gray;
-    width: 100px;
-    margin: 0;
-    padding: 20px;
+
+th {
+    height: 25px;
+    background-color: gray;
 }
-#grid {
-    display: grid;
-    grid-template-columns: 150px 1fr;
-}
-#grid ol {
-    padding-left: 33px;
-}
-#grid #article {
-    padding: 25px;
-}
-@media (max-width:800px) {
-    #grid{
-        display: block;
-    }
-    ol{
-        border-right: none;
-    }
-    h1{
-        border-bottom: none;
-    }
+td{
+    height: 40px
 }

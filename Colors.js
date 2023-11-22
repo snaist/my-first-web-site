@@ -9,27 +9,25 @@ var Links = {
         $('a').css('color',color)
     }
 }
-var Body = {
-    setColor: function (color){
-        // document.querySelector('body').style.color = color;
-        $('body').css('color',color);
-    },
-    setBackgroundColor: function(color){
-        // document.querySelector('body').style.backgroundColor = color;
-        $('body').css('backgroundColor',color);
-    }
+
+function openPop() {
+    document.getElementById("popup_layer").style.display = "block";
+
 }
-function NightDayHandler(self) {
-    var target = document.querySelector('body');
-    if(self.value ==='night'){
-        Body.setBackgroundColor('black');
-        Body.setColor('white');
-        self.value = 'day';
-        Links.setColor('powderblue');
-    } else {
-        Body.setBackgroundColor('white');
-        Body.setColor('black');
-        self.value = 'night';
-        Links.setColor('blue');
-    }
+
+function closePop() {
+    document.getElementById("popup_layer").style.display = "none";
 }
+
+
+
+
+// function openPop() {
+//     document.getElementById('popup_overlay').style.display = 'block';
+//     document.getElementById('popup_layer').style.display = 'block';
+// }
+
+// function closePop() {
+//     document.getElementById('popup_overlay').style.display = 'none';
+//     document.getElementById('popup_layer').style.display = 'none';
+// }
